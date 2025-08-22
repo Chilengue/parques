@@ -1,0 +1,50 @@
+# Sistema de Gestão de Parques Automóveis 🚗
+
+Este é um aplicativo móvel desenvolvido para facilitar a gestão de parques automóveis, ou seja, para organizar veículos, reservas e motoristas de forma prática e eficiente. O objetivo é que qualquer pessoa responsável por um parque consiga ter controle total da frota e das operações diárias com facilidade.
+
+---
+
+## Funcionalidades
+
+### Gestão da Frota
+- Visualiza todos os veículos cadastrados no parque.
+- Identifica rapidamente quais estão ativos, em manutenção ou indisponíveis.
+- Permite acompanhar o tipo de veículo e seu status atual.
+
+### Reservas
+- Acompanha reservas realizadas para o dia e futuras.
+- Informa o status de cada reserva: confirmada, pendente ou cancelada.
+- Facilita o planejamento da utilização dos veículos.
+
+### Motoristas
+- Cadastro de motoristas e controle de disponibilidade.
+- Visualiza rapidamente quem está ativo ou indisponível.
+
+### Ações Rápidas
+- Adicionar novos veículos ao sistema.
+- Registrar manutenções realizadas nos veículos.
+- Gerenciar informações sobre motoristas.
+
+---
+
+## Layout e Experiência
+- Tela de login simples, com opção de login pelo Google ou cadastro com email.
+- Tela de registro para novos usuários.
+- Dashboard com resumo visual da frota, reservas e motoristas.
+- Cores e organização ajudam a identificar rapidamente o status de veículos e motoristas.
+
+---
+
+## Tecnologias
+O aplicativo foi desenvolvido com **React Native**, utilizando recursos como:  
+- Expo para facilitar o desenvolvimento e testes.  
+- Login via Google utilizando `expo-auth-session`.  
+- Gradientes nos botões e fundo usando `expo-linear-gradient`.  
+- Ícones simples para melhorar a visualização de cada card.
+
+---
+
+## Como Usar
+1. Clone o repositório:
+```bash
+git clone https://github.com/Chilengue/parques.git
